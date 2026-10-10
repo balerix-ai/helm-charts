@@ -2,6 +2,21 @@ apiVersion: v1
 entries:
   balerix-daemon:
   - apiVersion: v2
+    appVersion: 0.2.3
+    created: "2026-10-10T08:58:50.816429676Z"
+    description: One balerix Daemon and, optionally, the flow, web, matrix and github
+      Plugins (Spec O §14.1). Needs the balerix-operator chart.
+    digest: 40def5928ab8fe1844f681fcb6e2c4bf24bbfbdae3b29765770f6c05f1ac69ef
+    home: https://github.com/balerix-ai/balerix
+    kubeVersion: '>=1.32.0-0'
+    name: balerix-daemon
+    sources:
+    - https://github.com/balerix-ai/balerix
+    type: application
+    urls:
+    - https://github.com/balerix-ai/balerix/releases/download/balerix-charts-v0.1.2/balerix-daemon-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 0.2.2
     created: "2026-10-09T20:39:01.939885318Z"
     description: One balerix Daemon and, optionally, the flow, web, matrix and github
@@ -33,6 +48,21 @@ entries:
     version: 0.1.0
   balerix-operator:
   - apiVersion: v2
+    appVersion: 0.2.3
+    created: "2026-10-10T08:58:50.81703682Z"
+    description: The balerix operator, its CustomResourceDefinitions and its RBAC
+      (Spec O §14.1).
+    digest: 8d3aeb299bf8ebbce8ccdd894416ba77558b3690399a0eb95d2760e753f3a1cf
+    home: https://github.com/balerix-ai/balerix
+    kubeVersion: '>=1.32.0-0'
+    name: balerix-operator
+    sources:
+    - https://github.com/balerix-ai/balerix
+    type: application
+    urls:
+    - https://github.com/balerix-ai/balerix/releases/download/balerix-charts-v0.1.2/balerix-operator-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 0.2.2
     created: "2026-10-09T20:39:01.940279845Z"
     description: The balerix operator, its CustomResourceDefinitions and its RBAC
@@ -62,4 +92,4 @@ entries:
     urls:
     - https://github.com/balerix-ai/balerix/releases/download/balerix-charts-v0.1.0/balerix-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-09T20:39:01.939323072Z"
+generated: "2026-10-10T08:58:50.815418528Z"
